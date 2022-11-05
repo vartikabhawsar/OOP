@@ -35,9 +35,9 @@ class employee
     void output()
     {
         
-        cout<<name<<" ";
-        cout<<eno<<" ";
-        cout<<netsal<<" ";
+        cout<<<"name is  "<<name<<" ";
+        cout<<"eno is  "<<eno<<" ";
+        cout<<"net salary is "<<netsal<<"  \n";
 
     }
     void outdata()
@@ -64,6 +64,6 @@ int main()
     m=i;
     }
     }
-    cout<<max;
+    cout<<max<<" ";
     e1[m].output();
 }
